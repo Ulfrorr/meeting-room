@@ -1,0 +1,60 @@
+.container {
+  width: 100%;
+  height: 564px;
+  padding:64px 0 0 0;
+}
+
+.content {
+  width: 1280px;
+  margin: auto;
+}
+
+.title {
+  width: 960px;
+  height: 64px;
+  margin: 0 140px 40px;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.33;
+  text-align: center;
+  color: #000000;
+}
+
+.demonstration {
+  width: 940px;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+ }
+
+.things{
+  width: 220px;
+}
+
+.img{
+  width: 220px;
+  height: 160px;
+  margin: 0 0 8px;
+}
+
+.yee {
+  width: 220px;
+  height: 28px;
+  margin: 8px 0;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.56;
+  color: #000000;
+}
+
+.subtitle {
+    width: 220px;
+  height: 40px;
+  margin: 8px 0 0;
+  font-family: Rubik;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #b2b2b2;
+}

@@ -1,0 +1,51 @@
+.container {
+  width: 1280px;
+  height: 398px;
+}
+
+.content {
+  width: 940px;
+  margin: auto;
+}
+.title {
+  width: 940px;
+  height: 64px;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.subtitle {
+  width: 940px;
+  height: 40px;
+  padding: 16px 0 0 0;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.logo {
+  width: 940px;
+  height: 110px;
+  padding: 40px 0 0 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand {
+  width: 140px;
+  height: 110px;
+}

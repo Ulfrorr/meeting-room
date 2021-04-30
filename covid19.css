@@ -1,0 +1,23 @@
+.container {
+  width: 1280px;
+  height: 64px;
+}
+
+.content {
+  width: 790px;
+  margin: auto;
+}
+
+.avvertenze {
+  width: 758px;
+  height: 64px;
+  padding: 5px 0 0 0;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #ffffff;
+}

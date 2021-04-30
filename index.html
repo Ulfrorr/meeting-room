@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="header"></div>
+        <div id="covid19"></div>
+        <div id="press"></div>
+        <div id="show0"></div>
+        <div id="companies"></div>
+        <div id="work0"></div>
+        <div id="work1"></div>
+        <div id="work2"></div>
+        <div id="work3"></div>
+        <div id="pre-footer"></div>
+        <div id="footer"></div>
+        
+        <script>
+            fetch("./header.html")
+                .then(response => {
+                    return response.text()
+                })
+                .then(data => {
+                    document.querySelector("#header").innerHTML = data;
+                });
+            
+            fetch("./covid19.html")
+                .then(response => {
+                    return response.text()
+                })
+                .then(data => {
+                    document.querySelector("#covid19").innerHTML = data;
+                });
+            fetch("./press.html")
+                .then(response => {
+                    return response.text()
+                })
+                .then(data => {
+                    document.querySelector("#press").innerHTML = data;
+                });
+            fetch("./show0.html")
+                .then(response => {
+                    return response.text()
+                })
+                .then(data => {
+                    document.querySelector("#show0").innerHTML = data;
+                });
+            fetch("./companies.html")
+                .then(response => {
+                    return response.text()
+                })
+                .then(data => {
+                    document.querySelector("#companies").innerHTML = data;
+                });
+            fetch("./work0.html")
+                .then(response => {
+                    return response.text()
+                })
+                .then(data => {
+                    document.querySelector("#work0").innerHTML = data;
+                });
+            fetch("./work1.html")
+                .then(response => {
+                    return response.text()
+                })
+                .then(data => {
+                    document.querySelector("#work1").innerHTML = data;
+                });
+            fetch("./work2.html")
+                .then(response => {
+                    return response.text()
+                })
+                .then(data => {
+                    document.querySelector("#work2").innerHTML = data;
+                });
+            fetch("./work3.html")
+                .then(response => {
+                    return response.text()
+                })
+                .then(data => {
+                    document.querySelector("#work3").innerHTML = data;
+                });
+            fetch("./pre-footer.html")
+                .then(response => {
+                    return response.text()
+                })
+                .then(data => {
+                    document.querySelector("#pre-footer").innerHTML = data;
+                });
+            fetch("./footer.html")
+                .then(response => {
+                    return response.text()
+                })
+                .then(data => {
+                    document.querySelector("#footer").innerHTML = data;
+                });
+            
+        </script>
+    </body>
+</html>
