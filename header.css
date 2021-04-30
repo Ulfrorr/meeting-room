@@ -1,13 +1,29 @@
-.container {
+#header .container {
   width: 1280px;
   height: 700px;
 }
 
-.content {
+#header .content {
   width:1280px;
 }
+#header {background-image: url(img-meeting/meeting.png) ;
+         width: 1280px;
+         height: 700px;}
+.img-meeting/meeting.png {  
+                    width: 1280px;
+                    height: 700px;
+                    padding: 0 0 250px;
+                    object-fit: contain;
+                    margin: 0;
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;}
 
-.top {
+#header .top {
   width: 924px;
   height: 160px;
   margin: auto;
@@ -15,11 +31,12 @@
   justify-content: space-between;
 }
 
-.top-left {
+#header .top-left {
   display: flex;
+  margin-top: 20px;
 }
 
-.marketplace {
+#header .marketplace {
   width: 96px;
   height: 20px;
   margin: 5px 0px 14px 32px;
@@ -30,10 +47,11 @@
   font-style: normal;
   line-height: 1.25;
   letter-spacing: normal;
+  color: #ffffff;
 }
 
-.business {
-    width: 96px;
+#header .business {
+  width: 96px;
   height: 20px;
   margin: 5px 16px 14px 14px;
   font-family: Rubik;
@@ -43,14 +61,16 @@
   font-style: normal;
   line-height: 1.25;
   letter-spacing: normal;
+  color: #ffffff;
 }
 
-.top-right {
+#header .top-right {
   display: flex;
+  margin-top: 20px;
 }
 
-.download {
-  width: 95px;
+#header .download {
+  width: 109px;
   height: 28px;
   padding: 9px 5px 9px;
   border-radius: 8px;
@@ -66,7 +86,7 @@
 }
 
 .offer {
-  width: 113px;
+  width: 130px;
   height: 28px;
   margin: 0 0 0 16px;
   padding: 9px 16px 11px;
@@ -82,12 +102,12 @@
   color: #ffffff;
 }
 
-.bottom {
+#header .bottom {
   width: 924px;
   margin: auto;
    
 }
-.mega-title {
+#header .mega-title {
   width: 620px;
   height: 210px;
   margin: 0 0 24px;
@@ -98,10 +118,11 @@
   font-style: normal;
   line-height: 1.25;
   letter-spacing: normal;
+  color: #ffffff;
 }
 
-.download1 {
-  width: 91px;
+#header .download1 {
+  width: 109px;
   height: 28px;
   margin: 24px 481px 0 0;
   padding: 9px 16px 11px;

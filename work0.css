@@ -1,15 +1,15 @@
-.container {
+#work0 .container {
   width: 1280px;
   height: 192px;
   padding: 20px 0 0 20px;
 }
 
-.content {
+#work0 .content {
   width: 660px;
   margin: auto;
 }
 
-.title {
+#work0 .title {
   width: 660px;
   height: 64px;
   font-family: Poppins;

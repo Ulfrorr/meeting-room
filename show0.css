@@ -1,15 +1,15 @@
-.container {
+#show0 .container {
   width: 100%;
   height: 564px;
   padding:64px 0 0 0;
 }
 
-.content {
+#show0 .content {
   width: 1280px;
   margin: auto;
 }
 
-.title {
+#show0 .title {
   width: 960px;
   height: 64px;
   margin: 0 140px 40px;
@@ -21,24 +21,24 @@
   color: #000000;
 }
 
-.demonstration {
+#show0 .demonstration {
   width: 940px;
   margin:auto;
   display: flex;
   justify-content: space-between;
  }
 
-.things{
+#show0 .things{
   width: 220px;
 }
 
-.img{
+#show0 .img{
   width: 220px;
   height: 160px;
   margin: 0 0 8px;
 }
 
-.yee {
+#show0 .yee {
   width: 220px;
   height: 28px;
   margin: 8px 0;
@@ -49,7 +49,7 @@
   color: #000000;
 }
 
-.subtitle {
+#show0 .subtitle {
     width: 220px;
   height: 40px;
   margin: 8px 0 0;

@@ -1,22 +1,22 @@
-.container {
+#work3 .container {
   width: 1280px;
   height: 740px;
 }
 
-.content {
+#work3 .content {
   width:816px;
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
 
-.text {
+#work3 .text {
   width: 460px;
   height: 280px;
 }
 
 
-.number {
+#work3 .number {
   width: 460px;
   height: 64px;
   margin: 30px 20px 0 0;
@@ -30,7 +30,7 @@
   color: #ff4438;
 }
 
-.title {
+#work3 .title {
   width: 460px;
   height: 140px;
   margin: 0 0 16px;
@@ -44,10 +44,11 @@
   color: #000000;
 }
 
-.subtitle {
+#work3 .subtitle {
   width: 460px;
   height: 60px;
   margin: 16px 0 0;
+  padding-top: 50px;
   font-family: Rubik;
   font-size: 16px;
   font-weight: normal;

@@ -1,14 +1,15 @@
-.container {  
+#press .container {  
   width: 1280px;
   height: 152px;
+  padding-top: 20px;
 }
 
-.content {
+#press .content {
   width: 940px;
   margin: auto;
   }
 
-.things {
+#press .things {
   width: 940px;
   height: 80px;
   margin: auto;
